@@ -1,0 +1,85 @@
+$fontSizeHeader: 30px;
+$fontFamily: 'Lucida Sans', 'Lucida Sans Regular' sans-serif;
+
+@mixin input() {
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+    font-family: $fontFamily;
+    border-radius: 10px;
+}
+
+.mainBlock {
+    margin-top: 25px;
+
+    .searchBlock {
+
+        // h2 {
+        //     font-size: $fontSizeHeader;
+        // }
+        .blockInput {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 35px;
+
+            input {
+                @include input();
+                width: 100%;
+                font-size: 25px;
+                height: 40px;
+            }
+        }
+    }
+
+    h2 {
+        font-size: $fontSizeHeader;
+        font-family: $fontFamily;
+    }
+
+    .createBlock {
+        height: 60px;
+        display: flex;
+        margin-bottom: 35px;
+
+        input {
+            @include input();
+            width: 25%;
+            margin-right: 20px;
+            font-size: 15px;
+            height: 40px;
+
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            background-color: rgb(37, 162, 37);
+            color: #fff;
+            margin-bottom: 0;
+
+        }
+    }
+
+    .contactsHeader {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-color: black;
+        border-radius: 10px;
+
+
+        h5 {
+            font-size: 20px;
+            font-family: $fontFamily;
+            color: #fff;
+            padding: 10px;
+        }
+    }
+
+    .contactsBlock {
+        padding: 10px;
+
+    }
+}

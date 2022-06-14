@@ -1,0 +1,43 @@
+@import "./resetStyle";
+
+$fontFamily: 'Lucida Sans', 'Lucida Sans Regular' sans-serif;
+
+@mixin link() {
+    margin-right: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-family: $fontFamily;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.app {
+    background-color: rgb(216, 216, 216);
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    nav {
+        display: flex;
+
+        a {
+            @include link();
+
+            &:hover {
+                background-color: rgb(235, 28, 28);
+                transition: 0.2s linear;
+            }
+        }
+    }
+
+    h1 {
+        display: flex;
+    }
+}

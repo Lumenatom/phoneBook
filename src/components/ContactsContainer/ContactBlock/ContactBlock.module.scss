@@ -1,0 +1,43 @@
+$fontSizeHeader: 20px;
+$fontFamily: 'Lucida Sans', 'Lucida Sans Regular' sans-serif;
+
+
+.contactBlock {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .contactItem {
+        display: flex;
+        width: 75%;
+        justify-content: space-around;
+
+        h5 {
+            width: 33%;
+            font-size: $fontSizeHeader;
+            font-family: $fontFamily;
+            padding-left: 10px;
+            font-weight: 500;
+
+        }
+    }
+
+    .buttons {
+        display: flex;
+        width: 25%;
+        justify-content: flex-end;
+
+
+        button {
+            background-color: rgb(37, 162, 37);
+            font-size: 20px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            color: #fff;
+            margin-left: 15px;
+            margin-bottom: 20px;
+
+        }
+    }
+
+}

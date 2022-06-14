@@ -1,0 +1,14 @@
+.mainBlock {
+  font-size: 25px;
+}
+.mainBlock h2 {
+  margin: 35px 0 15px;
+  font-size: 25px;
+}
+.mainBlock ul {
+  padding: 20px;
+}
+.mainBlock ul li {
+  margin-bottom: 15px;
+  list-style: disc;
+}

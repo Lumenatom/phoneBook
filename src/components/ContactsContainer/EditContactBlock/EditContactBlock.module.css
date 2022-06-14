@@ -1,0 +1,29 @@
+.editBlockInput {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.editBlockInput input {
+  padding: 10px;
+  font-weight: 500;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular" sans-serif;
+  border-radius: 10px;
+  width: 25%;
+  margin-right: 20px;
+  font-size: 15px;
+  height: 40px;
+}
+.editBlockInput .buttons {
+  display: flex;
+  width: 25%;
+  justify-content: flex-end;
+}
+.editBlockInput .buttons button {
+  background-color: #25a225;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}

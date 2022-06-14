@@ -1,0 +1,63 @@
+.mainBlock {
+  margin-top: 25px;
+}
+.mainBlock .searchBlock .blockInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.mainBlock .searchBlock .blockInput input {
+  padding: 10px;
+  font-weight: 500;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular" sans-serif;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 25px;
+  height: 40px;
+}
+.mainBlock h2 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular" sans-serif;
+}
+.mainBlock .createBlock {
+  height: 60px;
+  display: flex;
+  margin-bottom: 35px;
+}
+.mainBlock .createBlock input {
+  padding: 10px;
+  font-weight: 500;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular" sans-serif;
+  border-radius: 10px;
+  width: 25%;
+  margin-right: 20px;
+  font-size: 15px;
+  height: 40px;
+}
+.mainBlock .createBlock button {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #25a225;
+  color: #fff;
+  margin-bottom: 0;
+}
+.mainBlock .contactsHeader {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 10px;
+}
+.mainBlock .contactsHeader h5 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular" sans-serif;
+  color: #fff;
+  padding: 10px;
+}
+.mainBlock .contactsBlock {
+  padding: 10px;
+}

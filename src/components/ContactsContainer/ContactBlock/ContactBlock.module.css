@@ -1,0 +1,31 @@
+.contactBlock {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.contactBlock .contactItem {
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+}
+.contactBlock .contactItem h5 {
+  width: 33%;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular" sans-serif;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.contactBlock .buttons {
+  display: flex;
+  width: 25%;
+  justify-content: flex-end;
+}
+.contactBlock .buttons button {
+  background-color: #25a225;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}

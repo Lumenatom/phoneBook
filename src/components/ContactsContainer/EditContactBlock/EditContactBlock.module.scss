@@ -1,0 +1,42 @@
+$fontFamily: 'Lucida Sans', 'Lucida Sans Regular' sans-serif;
+
+@mixin input() {
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+    font-family: $fontFamily;
+    border-radius: 10px;
+}
+
+
+
+.editBlockInput {
+    display: flex;
+    flex-wrap: nowrap;
+
+    input {
+        @include input();
+        width: 25%;
+        margin-right: 20px;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 25%;
+        justify-content: flex-end;
+
+        button {
+            background-color: rgb(37, 162, 37);
+            font-size: 20px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            color: #fff;
+            margin-left: 15px;
+            margin-bottom: 20px;
+        }
+    }
+
+
+}

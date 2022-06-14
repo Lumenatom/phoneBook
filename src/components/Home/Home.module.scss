@@ -1,0 +1,21 @@
+$fontFamily: 'Lucida Sans', 'Lucida Sans Regular' sans-serif;
+
+.mainBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+        max-width: 250px;
+        margin-top: 55px;
+    }
+
+    h2 {
+        margin-top: 45px;
+        font-size: 70px;
+        font-family: $fontFamily;
+    }
+
+
+}
